@@ -1,0 +1,132 @@
+﻿<view height="205" width="296" onopen="onOpen()" onsize="onSize()"
+ >
+  <div name="container" background="#E3E3E3">
+    <div name="content" visible="false" background="#FFFFFF">
+      <div name="entriesViewPort">
+        <div name="entries" width="100%"/>
+      </div>
+      <label name="statusLabel" size="8"/>
+    </div>
+    <div name="scrollbar" visible="false">
+      <progressbar cursor="hand" enabled="true" hitTest="htclient" name="bar" orientation="vertical"
+        value="100"/>
+    </div>
+    <div name="header">
+      <img name="left"/>
+      <div height="100%" name="middle">
+        <img name="stretchImage" width="100%"/>
+      </div>
+      <img name="right"/>
+    </div>
+    <div name="logo">
+      <img name="image"/>
+    </div>
+    <div name="borderLeft">
+      <img height="100%" name="stretchImage"/>
+    </div>
+    <div name="borderRight">
+      <img height="100%" name="stretchImage"/>
+    </div>
+    <div name="footer">
+      <img name="left"/>
+      <div height="100%" name="middle">
+        <img name="stretchImage" width="100%"/>
+      </div>
+      <img name="right"/>
+    </div>
+    <div name="title" width="100%"/>
+    <img height="0" name="imgSizer" width="0"/>
+  </div>
+  <combobox height="100" name="combobox1" width="120" x="18" y="86" onclick="combobox1_onclick()"
+    background="#CCCCCC" itemSeparator="true" selectedIndex="0"
+    itemWidth="100" itemHeight="20" maxDroplistItems="50" value="Australia"
+   >
+    <item height="20" name="AUD" width="100" selected="true">
+      <label name="AUD" size="8" valign="middle">Australia
+      </label>
+    </item>
+    <item height="20" name="BRL" width="100">
+      <label name="BRL" size="8" valign="middle">Brazil
+      </label>
+    </item>
+    <item height="20" name="CAD" width="100">
+      <label name="CAD" size="8" valign="middle">Canada
+      </label>
+    </item>
+    <item height="20" name="EUR" width="100">
+      <label name="EUR" size="8" valign="middle">Europe
+      </label>
+    </item>
+    <item height="20" name="INR" width="100">
+      <label size="8" valign="middle">India
+      </label>
+    </item>
+    <item height="20" name="JPY" width="100">
+      <label size="8" valign="middle">Japan
+      </label>
+    </item>
+    <item height="20" name="USD" width="100">
+      <label name="USD" size="8" valign="middle">United States
+      </label>
+    </item>
+    <item height="20" name="UK" width="100">
+      <label name="UK" size="8" valign="middle">United Kingdom
+      </label>
+    </item>
+  </combobox>
+  <combobox height="100" name="combobox2" width="117" x="149" y="86" background="#CCCCCC"
+    itemSeparator="true" selectedIndex="0" itemWidth="100"
+    itemHeight="20" maxDroplistItems="50" value="Australia"
+   >
+    <item height="20" name="AUD" width="100" selected="true">
+      <label name="AUD" size="8" valign="middle">Australia
+      </label>
+    </item>
+    <item height="20" name="BRL" width="100">
+      <label name="BRL" size="8" valign="middle">Brazil
+      </label>
+    </item>
+    <item height="20" name="CAD" width="100">
+      <label name="CAD" size="8" valign="middle">Canada
+      </label>
+    </item>
+    <item height="20" name="EUR" width="100">
+      <label name="EUR" size="8" valign="middle">Europe
+      </label>
+    </item>
+    <item height="20" name="INR" width="100">
+      <label size="8" valign="middle">India
+      </label>
+    </item>
+    <item height="20" name="JPY" width="100">
+      <label size="8" valign="middle">Japan
+      </label>
+    </item>
+    <item height="20" name="USD" width="100">
+      <label name="USD" size="8" valign="middle">United States
+      </label>
+    </item>
+    <item height="20" name="UK" width="100">
+      <label name="UK" size="8" valign="middle">United Kingdom
+      </label>
+    </item>
+  </combobox>
+  <edit height="16" name="edit1" width="121" x="81" y="38" bold="true"
+    color="#FFFFFF" wordwrap="true" background="#CBB8DE"/>
+  <label height="16" name="label2" width="58" x="16" y="39" bold="true"
+    color="#705082" size="8" wordwrap="true">Currency
+  </label>
+  <button height="22" name="button1" opacity="200" width="64" x="207"
+    y="37" onclick="button1_onclick()" downImage="stock_images\button_down.png"
+    image="stock_images\button_up.png" overImage="stock_images\button_over.png"
+    caption="Convert"/>
+  <label height="16" name="label1" width="266" x="17" y="61" bold="true"
+    color="#705082" size="8">&label1;
+  </label>
+  <script src="editme/config_constants.js" />
+  <script src="utils_js/utils.js" />
+  <script src="utils_js/parsers.js" />
+  <script src="utils_js/entry_list.js" />
+  <script src="main.js" />
+  <script src="editme/entry_item_impl.js" />
+</view>
