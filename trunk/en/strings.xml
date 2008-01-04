@@ -1,0 +1,39 @@
+﻿<!--
+Copyright (C) 2007 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<strings>
+  <GADGET_NAME>Currency Converter</GADGET_NAME>
+  <GADGET_DESCRIPTION>This Gadget will help you to convert from one currency value to another.</GADGET_DESCRIPTION>
+  <GADGET_ABOUT_TEXT>Currency Converter
+ Ankit Patel (B.E. Information Technology)
+ Email : ankitpatelit2006@gmail.com
+
+</GADGET_ABOUT_TEXT>
+
+  <MIN_AGO>min ago</MIN_AGO>
+  <MINS_AGO>mins ago</MINS_AGO>
+
+  <HR_AGO>hr ago</HR_AGO>
+  <HRS_AGO>hrs ago</HRS_AGO>
+
+  <DAY_AGO>day ago</DAY_AGO>
+  <DAYS_AGO>days ago</DAYS_AGO>
+
+  <TRYING_TO_CONNECT>Trying to connect...</TRYING_TO_CONNECT>
+  
+  <TITLE_TEXT>Currency Converter</TITLE_TEXT>  
+<label1>0.00</label1>
+</strings>
