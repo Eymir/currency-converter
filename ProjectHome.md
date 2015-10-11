@@ -1,0 +1,1 @@
+This gadget will convert currency using up to date values from RSS feeds
